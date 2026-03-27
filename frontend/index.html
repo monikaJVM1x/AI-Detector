@@ -2,33 +2,85 @@
 <html>
 
 <head>
-    <title>AI Health Risk Detection</title>
-    <link rel="stylesheet" href="style.css">
+<title>Bite Detection</title>
+<link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-<div class="container">
+<header class="navbar">
 
-<h1>AI Health Risk Detection</h1>
-<p>Detect Snake Bite or Insect Bite</p>
+<div class="logo">
+🧠 AI Bite Detector
+</div>
 
-<input type="file" id="imageInput">
+<nav class="nav-links">
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="index.html">AI-Detector</a>
+<a href="contact.html">Contact Us</a>
+</nav>
 
-<br><br>
+</header>
 
-<img id="preview" width="200"/>
 
-<br><br>
+<section class="detect-page">
 
-<button onclick="predict()">Predict</button>
+<div class="card">
 
-<h2 id="result"></h2>
+<!-- LEFT SIDE (UPLOAD PANEL) -->
+
+<div class="upload-panel">
+
+<label class="upload-btn">
+Upload Bite Photo
+<input type="file" id="imageInput" hidden>
+</label>
+
+<p class="file-text">PNG, JPG or JPEG</p>
+
+<img id="preview">
+
+<button class="predict-btn" onclick="predict()">Analyze Bite</button>
+
+<button class="hospital-btn" onclick="findHospital()">
+Find Nearby Hospitals
+</button>
 
 </div>
+
+
+<!-- RIGHT SIDE (RESULT PANEL) -->
+
+<div class="result-panel">
+
+<div class="result-item">
+<span class="label">Prediction</span>
+<span id="prediction" class="value">---</span>
+</div>
+
+<div class="risk-container">
+
+<div class="risk-circle" id="riskCircle">
+<div class="risk-text" id="riskText">Risk</div>
+</div>
+
+</div>
+
+<div class="result-item">
+<span class="label">Confidence</span>
+<span id="confidence" class="value">---</span>
+</div>
+
+<div id="emergency" class="alert"></div>
+
+</div>
+
+</div>
+
+</section>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>

@@ -1,0 +1,208 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+
+background-image: 
+linear-gradient(rgba(113,111,111,0.4), rgba(84,83,83,0.4)),
+url("hero.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+position:relative;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.nav-links{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.nav-links a{
+margin:0 20px;
+text-decoration:none;
+color:#090909;
+font-size:16px;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:#7b271c;
+}
+
+/* PAGE CENTER */
+
+.detect-page{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:calc(100vh - 80px);
+padding:40px 20px;
+}
+
+/* CARD (DASHBOARD STYLE) */
+
+.card{
+background:rgb(194,230,246);
+width:720px;
+padding:40px;
+border-radius:14px;
+box-shadow:0px 10px 30px rgba(0,0,0,0.2);
+
+display:flex;
+justify-content:space-between;
+gap:40px;
+}
+
+/* LEFT SIDE */
+
+.upload-panel{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+}
+
+/* RIGHT SIDE */
+
+.result-panel{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:20px;
+}
+
+/* UPLOAD BUTTON */
+
+.upload-btn{
+display:inline-block;
+background:#28a745;
+color:white;
+padding:14px 24px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+transition:0.2s;
+}
+
+.upload-btn:hover{
+background:#1f8c39;
+}
+
+/* BUTTONS */
+
+.predict-btn{
+padding:12px 24px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+.predict-btn:hover{
+background:#0056b3;
+}
+
+.hospital-btn{
+padding:12px 24px;
+background:#ff9800;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+.hospital-btn:hover{
+background:#e68900;
+}
+
+/* IMAGE */
+
+#preview{
+margin-top:10px;
+width:220px;
+border-radius:10px;
+}
+
+/* RESULT TEXT */
+
+.result-item{
+text-align:center;
+}
+
+.label{
+font-size:14px;
+color:#333;
+}
+
+.value{
+font-size:18px;
+font-weight:bold;
+}
+
+/* RISK CIRCLE */
+
+.risk-circle{
+width:120px;
+height:120px;
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-weight:bold;
+color:#333;
+
+background:conic-gradient(
+#4CAF50 0deg 120deg,
+#FF9800 120deg 240deg,
+#f44336 240deg 360deg
+);
+}
+
+.risk-text{
+background:white;
+width:70px;
+height:70px;
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:12px;
+text-align:center;
+}
+
+/* ALERT */
+
+.alert{
+margin-top:10px;
+padding:12px;
+background:#ff4d4d;
+color:white;
+border-radius:6px;
+font-weight:bold;
+display:none;
+}

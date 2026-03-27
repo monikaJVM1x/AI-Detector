@@ -1,0 +1,105 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+
+background-image: 
+linear-gradient(rgba(55, 55, 55, 0.4), rgba(105, 103, 103, 0.4)),
+url("hero.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+position:relative;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+/* CENTER NAV */
+
+.nav-links{
+position:absolute;
+left:50%;
+transform:translateX(-50%);
+}
+
+.nav-links a{
+margin:0 20px;
+text-decoration:none;
+color:#333;
+font-size:16px;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:#641212;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section{
+padding:80px 100px;
+text-align:center;
+}
+
+.about-section h1{
+font-size:42px;
+margin-bottom:20px;
+color: #f9f9f9;
+}
+
+.intro{
+font-size:18px;
+color:#f5f0f0;
+max-width:700px;
+margin:auto;
+margin-bottom:60px;
+}
+
+/* FEATURES */
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+gap:30px;
+}
+
+.feature-card{
+background:rgb(201, 233, 249);
+padding:30px;
+border-radius:12px;
+box-shadow:0px 8px 20px rgba(0,0,0,0.08);
+}
+
+.feature-card h3{
+margin-bottom:10px;
+}
+
+.feature-card p{
+color:#080707;
+line-height:1.5;
+}
+
+/* FOOTER */
+
+.footer{
+margin-top:60px;
+padding:20px;
+background:#222;
+color:white;
+text-align:center;
+}
