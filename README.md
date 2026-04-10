@@ -1,14 +1,14 @@
-# 🧠 AI-Detector: Multimodal Bite Risk Assessment System
+# 🧠 AI Detector: Multimodal Bite Risk Assessment System
 
-Cutis-AI is an AI-powered healthcare assistance system designed to analyze skin images and provide early risk assessment for **insect bites and snake bites**. The system uses **deep learning and multimodal inputs (image + symptoms)** to assist in identifying bite types and suggesting medical guidance.
+AI Detector is an AI-powered healthcare assistance system designed to analyze skin images and provide early risk assessment for **insect bites and snake bites**. The system uses **deep learning and multimodal inputs (image + symptoms)** to assist in identifying bite types and suggesting medical guidance.
 
 ---
 
 ## 📌 Overview
 
-Bites from insects and snakes can lead to serious medical complications if not identified early. Traditional diagnosis requires expert examination and laboratory tests, which may not always be accessible.
+Bites from insects and snakes can lead to serious medical complications if not identified early. Traditional diagnosis often requires expert medical examination and laboratory testing, which may not always be accessible.
 
-🚑 **Cutis-AI aims to provide a fast preliminary assessment using computer vision and machine learning.**
+🚑 **AI Detector aims to provide a rapid preliminary assessment using computer vision and machine learning techniques.**
 
 ---
 
@@ -42,13 +42,13 @@ Bites from insects and snakes can lead to serious medical complications if not i
 
 ✅ Risk level estimation
 ✅ Medical guidance suggestions
-✅ Lightweight AI model for mobile environments
+✅ Lightweight AI model suitable for mobile environments
 
 ---
 
 ## 🤖 AI Model
 
-⚙️ Transfer Learning with **MobileNetV2 / EfficientNet**
+⚙️ Transfer Learning using **MobileNetV2 / EfficientNet**
 
 📊 Model Pipeline:
 
@@ -62,7 +62,7 @@ Bites from insects and snakes can lead to serious medical complications if not i
 
 Output:
 
-```id="nbh2tb"
+```id="9l6y0k"
 Normal Skin
 Insect Bite
 Snake Bite
@@ -105,7 +105,7 @@ Model performance is evaluated using:
 
 Expected performance:
 
-```id="nfl1zb"
+```id="pq0dpt"
 Accuracy: 80% – 90%
 ```
 
