@@ -15,17 +15,17 @@ Bites from insects and snakes can lead to serious medical complications if not i
 ## 🧩 System Workflow
 
 📷 Image Capture (Mobile Camera)
-⬇
+->
 🧹 Image Preprocessing
-⬇
+->
 🧠 Feature Extraction using CNN
-⬇
+->
 📝 Symptom Input Processing
-⬇
+->
 🔗 Multimodal Feature Fusion
-⬇
+->
 📊 Bite Classification
-⬇
+->
 ⚠️ Risk Assessment & Medical Advice
 
 ---
